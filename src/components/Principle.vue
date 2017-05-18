@@ -1,5 +1,7 @@
 <template>
   <div class="principle">
+            <router-link :to="'/solid'">Back To Solid Principle</router-link>
+
     <h1>{{principle.name}}</h1>
     <p>{{principle.description}}</p>
   </div>
